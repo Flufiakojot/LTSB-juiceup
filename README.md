@@ -2,8 +2,8 @@
 ## Limit telemetry and improve performance on lower-end hardware!
 
 
-### What does this sript do?
-This script will disable some services and limit the telemetry to improve privacy and gain performance on lower-end hardware!
+### What does this script do?
+This batch script will disable some services and limit the telemetry to improve privacy and gain performance on lower-end hardware!
 
 
 ## Compatibility
