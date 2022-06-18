@@ -4,7 +4,7 @@ color 5f
 cls
 title LTSB-juiceup - main menu
 echo.
-echo. LTSB-juiceup ver. 1.0.0
+echo. LTSB-juiceup ver. 1.0.1
 echo. Limit telemetry and improve performance on lower-end hardware!
 echo. Made by Flufiakojot on GitHub
 echo.
@@ -58,7 +58,7 @@ echo. It might not do its stuff properly on newer builds, such as 1809 (2019) or
 echo.
 echo. This script will disable some services and limit the telemetry to improve privacy and gain performance on lower-end hardware!
 echo.
-echo. There are some services like "OneSyncSvc" with random letters and numbers at their end, therefore you must disable them manually.
+echo. There are some services like "OneSyncSvc" with random letters and numbers at their end, I have absolutely no idea how to disable them (because the letters are random each time), so disable them manually.
 echo.
 echo. You're free to adjust this script to your personal needs! :)
 echo.
@@ -235,8 +235,8 @@ echo. Optional tweaks..
 echo.
 echo. Type in "1" to increase JPEG quality to 100% for wallpapers
 echo. Type in "2" to disable Dnscache service (could cause issues with Microsoft Store or other)
-echo. Type in "3" to disable Server service
-echo. Type in "4" to disable Workstation service
+echo. Type in "3" to disable Server service (disabled by default with the script)
+echo. Type in "4" to disable Workstation service (disabled by default with the script)
 echo. Type in "5" to enable verbose messages
 echo.
 echo. Type in "6" to remove JPEG quality increase
